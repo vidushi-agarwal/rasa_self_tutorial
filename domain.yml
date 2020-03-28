@@ -18,7 +18,7 @@ entities:
 slots:
   facility_type:
     type: text
-    
+
   facility_address:
     type: text
   facility_id:
@@ -38,9 +38,10 @@ actions:
 - find_facility_types
 - find_healthcare_address
 - utter_address
+- action_default_fallback
 
 
-templates:
+responses:
   utter_greet:
   - text: "Hi. What are you looking for?"
   - text: "Hey there! Please choose one of the healthcare facility options:"
@@ -50,6 +51,9 @@ templates:
   - text: "Talk to you later!"
   - text: "Have a good day."
   - text: "Until next time!"
+  - text: "exit"
+  - text: "stop"
+  - text: "quit"
 
   utter_noworries:
   - text: "My pleasure."
@@ -66,3 +70,6 @@ templates:
 
   utter_address:
   - text: "The address is {facility_address}."
+
+  action_default_fallback:
+    -text: "Please type correct credential"

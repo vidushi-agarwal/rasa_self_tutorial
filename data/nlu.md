@@ -20,7 +20,6 @@
 - do you have something else
 - no this does not work for me
 
-
 ## intent:out_of_scope
 - please help with my ice cream it's dripping
 - no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
@@ -72,6 +71,7 @@
 - i'm off
 - see you later alligator
 - we'll speak soon
+- exit
 
 ## intent:greet
 - Hi
@@ -181,6 +181,10 @@
 - a [home health agency](facility_type)
 - a [hospital](facility_type)
 - a [nursing home](facility_type)
+- [Chicago](location)
+- [San Francisco](location)
+- [Aurora](location)
+- [140029](facility_id)
 
 ## intent:search_provider
 - i need a [hospital](facility_type)
@@ -248,6 +252,9 @@
 - Good morning i need a [hospital](facility_type) in [Waco](location)
 - Good morning i need a [home health agency](facility_type) in [Clarksville](location)
 - Can you tell me a [nursing home](facility_type) in [Oklahoma City](location) ?
+- [hospital](facility_type:xubh-q36u) in san diego
+- [nursing home](facility_type:b27b-2uc7) in denver
+- [hospital](facility_type:xubh-q36u) in [Denver](location)
 
 ## intent:thanks
 - Thanks
@@ -288,17 +295,19 @@
 - extremely sad
 - so sad
 
-## regex:location
-- [0-9]{5}
+## synonym:9wzi-peqs
+- home health agenc
+- home health agency
+- home health agencies
+
+## synonym:b27b-2uc7
+- nursing  home
+- nursing home
+- nursing homes
 
 ## synonym:xubh-q36u
 - hospital
 - hospitals
 
-## synonym:9wzi-peqs
-- home health agency
-- home health agencies
-
-## synonym:b27b-2uc7
-- nursing home
-- nursing homes
+## regex:location
+- [0-9]{5}

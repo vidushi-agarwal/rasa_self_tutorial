@@ -66,7 +66,7 @@ def _create_path(base: Text, resource: Text,
 
 def _find_facilities(location: Text, resource: Text) -> List[Dict]:
     """Returns json of facilities matching the search criteria."""
-
+    
     if str.isdigit(location):
         full_path = _create_path(ENDPOINTS["base"], resource,
                                  ENDPOINTS[resource]["zip_code_query"],
@@ -179,11 +179,14 @@ class FacilityForm(FormAction):
     def required_slots(tracker: Tracker) -> List[Text]:
         """A list of required slots that the form has to fill"""
 
+
         return ["facility_type", "location"]
 
     def slot_mappings(self) -> Dict[Text, Any]:
+
+
         return {"facility_type": self.from_entity(entity="facility_type",
-                                                  intent=["inform",
+                                                intent=["inform",
                                                           "search_provider"]),
                 "location": self.from_entity(entity="location",
                                              intent=["inform",
@@ -197,6 +200,8 @@ class FacilityForm(FormAction):
         """Once required slots are filled, print buttons for found facilities"""
 
         location = tracker.get_slot('location')
+       
+
         facility_type = tracker.get_slot('facility_type')
 
         results = _find_facilities(location, facility_type)
