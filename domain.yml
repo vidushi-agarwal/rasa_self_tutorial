@@ -18,6 +18,7 @@ entities:
 slots:
   facility_type:
     type: text
+    
   facility_address:
     type: text
   facility_id:
