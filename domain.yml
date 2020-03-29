@@ -25,8 +25,35 @@ slots:
   requested_slot:
     type: unfeaturized
 templates:
+  utter_address:
+  - text: The address is {facility_address}.
+  utter_ask_facility_type:
+  - text: 'Choose one of the following to search for: hospital, nursing home, or home
+      health agency.'
+  utter_ask_location:
+  - text: Please provide your city name.
+  - text: What is your current city?
+  - text: Please provide your city name or zip code.
+  - text: Please enter your zip code or city name to find local providers.
+  utter_default:
+  - text: Please type correct credential
+  utter_goodbye:
+  - text: Talk to you later!
+  - text: Have a good day.
+  - text: Until next time!
+  - text: exit
+  - text: stop
+  - text: quit
   utter_greet:
-  - text: Welcome
+  - text: Hi. What are you looking for?
+  - text: 'Hey there! Please choose one of the healthcare facility options:'
+  - text: Hello! What can I help you find today?
+  utter_noworries:
+  - text: My pleasure.
+  - text: You are welcome!
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 0
 actions:
 - find_facility_types
 - find_healthcare_address
