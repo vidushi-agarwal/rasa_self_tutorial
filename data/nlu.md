@@ -6,7 +6,6 @@
 - yes yes yes
 - definitely
 - yeah
-- si
 - ok
 - okay
 
@@ -181,10 +180,6 @@
 - a [home health agency](facility_type)
 - a [hospital](facility_type)
 - a [nursing home](facility_type)
-- [Chicago](location)
-- [San Francisco](location)
-- [Aurora](location)
-- [140029](facility_id)
 
 ## intent:search_provider
 - i need a [hospital](facility_type)
@@ -251,9 +246,7 @@
 - Good morning i need a [nursing home](facility_type) in [Katy](location)
 - Good morning i need a [hospital](facility_type) in [Waco](location)
 - Good morning i need a [home health agency](facility_type) in [Clarksville](location)
-- Can you tell me a [nursing home](facility_type) in [Oklahoma City](location) ?
-- [hospital](facility_type:xubh-q36u) in san diego
-- [nursing home](facility_type:b27b-2uc7) in denver
+- Can you tell me a [nursing home](facility_type) in [Oklahoma City](location) 
 - [hospital](facility_type:xubh-q36u) in [Denver](location)
 
 ## intent:thanks
@@ -296,14 +289,13 @@
 - so sad
 
 ## synonym:9wzi-peqs
-- home health agenc
-- home health agency
 - home health agencies
+- home health agency
 
 ## synonym:b27b-2uc7
+- nursing homes
 - nursing  home
 - nursing home
-- nursing homes
 
 ## synonym:xubh-q36u
 - hospital
