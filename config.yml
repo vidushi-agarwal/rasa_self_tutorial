@@ -1,10 +1,10 @@
 language: en
 pipeline:
 - name: WhitespaceTokenizer
-  case_sensitive: False
+  case_sensitive: 'False'
 - name: RegexFeaturizer
 - name: CRFEntityExtractor
-  case_sensitive: False
+  case_sensitive: 'False'
 - name: EntitySynonymMapper
 - name: CountVectorsFeaturizer
 - name: EmbeddingIntentClassifier
