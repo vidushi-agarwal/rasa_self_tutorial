@@ -72,6 +72,7 @@
 - see you later alligator
 - we'll speak soon
 - exit
+- ll;
 
 ## intent:greet
 - Hi
@@ -181,9 +182,6 @@
 - a [home health agency](facility_type)
 - a [hospital](facility_type)
 - a [nursing home](facility_type)
-- [Chicago](location)
-- [San Francisco](location)
-- [Aurora](location)
 - [140029](facility_id)
 
 ## intent:search_provider
@@ -297,13 +295,13 @@
 
 ## synonym:9wzi-peqs
 - home health agenc
-- home health agency
 - home health agencies
+- home health agency
 
 ## synonym:b27b-2uc7
+- nursing homes
 - nursing  home
 - nursing home
-- nursing homes
 
 ## synonym:xubh-q36u
 - hospital
