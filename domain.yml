@@ -71,5 +71,5 @@ templates:
   utter_address:
   - text: "The address is {facility_address}."
 
-  action_default_fallback:
+  utter_default:
     -text: "Please type correct credential"
