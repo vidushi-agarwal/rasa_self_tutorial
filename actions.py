@@ -203,6 +203,10 @@ class FacilityForm(FormAction):
        
 
         facility_type = tracker.get_slot('facility_type')
+        
+        #///////////////////////////////////////////////////////////////////
+        print(facility_type,"fkjgoiejojeof0044444444444444444444")
+        print(_resolve_name(FACILITY_TYPES, facility_type),"resolve################3")
 
         results = _find_facilities(location, facility_type)
         button_name = _resolve_name(FACILITY_TYPES, facility_type)
