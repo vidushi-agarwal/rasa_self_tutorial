@@ -40,7 +40,7 @@ actions:
 - find_facility_types
 - find_healthcare_address
 - utter_address
-- action_default_fallback
+- utter_default
 
 
 templates:
