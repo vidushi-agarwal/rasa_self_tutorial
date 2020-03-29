@@ -177,24 +177,18 @@
 - [home health agency](facility_type)
 - [hospital](facility_type)
 - [nursing home](facility_type)
-- a [home health agency](facility_type)
-- a [hospital](facility_type)
-- a [nursing home](facility_type)
 
 ## intent:search_provider
 - i need a [hospital](facility_type)
 - find me a nearby [hospital](facility_type)
 - show me [hospitals](facility_type)
-- [hospital](facility_type)
 - find me a nearby [hospital](facility_type) my zip code is [10119](location)
 - i need a [home health agency](facility_type)
 - find me a nearby [home health agency](facility_type)
 - show me [home health agency](facility_type)
-- [home health agency](facility_type)
 - find me a nearby [home health agency](facility_type) my zip code is [10119](location)
 - find me a nearby [nursing home](facility_type)
 - show me [nursing home](facility_type)
-- [nursing home](facility_type)
 - find me a nearby [nursing home](facility_type) my zip code is [10119](location)
 - i need a [hospital](facility_type) my zip code is [77494](location)
 - my zip code is [30277](location) and i need a [nursing home](facility_type)
@@ -295,7 +289,6 @@
 ## synonym:b27b-2uc7
 - nursing homes
 - nursing  home
-- nursing home
 
 ## synonym:xubh-q36u
 - hospital

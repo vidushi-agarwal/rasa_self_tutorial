@@ -25,6 +25,8 @@ slots:
     type: text
   location:
     type: text
+  requested_slot:
+    type: unfeaturized
 
 forms:
 - facility_form
