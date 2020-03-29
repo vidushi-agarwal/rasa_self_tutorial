@@ -72,4 +72,4 @@ templates:
   - text: "The address is {facility_address}."
 
   utter_default:
-    -text: "Please type correct credential"
+  - text: "Please type correct credential"
