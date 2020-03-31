@@ -1,3 +1,7 @@
+![](rasax_healthcarebot.gif)
+
+Try out the <a href="http://35.200.162.2/guest/conversations/production/94b86ec57ab44b8ba9c2ad4abbb5bd04"> bot</a> yourself.
+
 ## How do I use this directory?
 Train the assistant using the command:  
 `rasa train`
