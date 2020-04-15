@@ -1,4 +1,4 @@
-![](rasax_healthcarebot.gif)
+![](musiclean.gif)
 
 This bot tells the user about following health care facilities-
 1. Hospital
